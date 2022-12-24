@@ -1,7 +1,8 @@
 
+
 .small{
     background: fixed;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
     width: 20px;
     height: 20px;
@@ -15,4 +16,8 @@
     border: 1px solid black;
     width: 20px;
     height: 20px;
+}
+
+.small:hover{
+    background-color: aqua;
 }
