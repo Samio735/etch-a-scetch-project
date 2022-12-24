@@ -1,11 +1,15 @@
-
+.container{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 .small{
     background: fixed;
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
-    width: 20px;
-    height: 20px;
+ 
     float: left;    
 }
 
@@ -14,8 +18,6 @@
     background: fixed;
     background-color: antiquewhite;
     border: 1px solid black;
-    width: 20px;
-    height: 20px;
 }
 
 .small:hover{

@@ -8,18 +8,21 @@ function createDiv(clsname){
     div.className = clsname
     return div
 }
-
+let style = "    grid-template-columns: "
 function start(){
-
-    for( let i = 1 ; i< ndivs**2;i++){
-        if(i % ndivs === 0) {
-            container.appendChild(createDiv("small-first"))
-        }
-        else{
-            container.appendChild(createDiv("small"))
-        }
+    for( let i =0 ; i< ndivs;i++){
+        style = style + " 1fr"
+        console.log(style)
+}
+   container.setAttribute("style", style )
+    for( let i =0 ; i< ndivs**2;i++){
+        container.appendChild(createDiv("small"))
 
 }
 }
 
-start()
+
+ ndivs = prompt("enter number of squares per side")
+
+ start()
+
