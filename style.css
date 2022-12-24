@@ -3,12 +3,13 @@
     height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
 }
 
 .small{
     background: fixed;
     background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+border: 0.1px solid rgb(189, 187, 187);
  
     float: left;    
 }
